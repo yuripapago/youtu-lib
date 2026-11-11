@@ -1,0 +1,28 @@
+# OS 임시 파일
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# 에디터 / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.iml
+.project
+.settings/
+
+# 로그·캐시
+*.log
+.cache/
+
+# 환경 변수·비밀값
+.env
+.env.*
+!.env.example
