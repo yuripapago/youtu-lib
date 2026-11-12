@@ -10,7 +10,7 @@
 
 ### 1. 젠슨 황, 엔비디아 CEO 즉시 사임 — 어제 WSJ 단독보도가 하루 만에 AP로 확인
 
-어제 브리핑에서 "WSJ 단독, 회사 확인 없음"으로 표기했던 건이 **11/12(현지) 사임으로 확정**됐다. HN에서 이틀 연속 1위를 갈아치웠다.
+어제 브리핑에서 "WSJ 단독, 회사 확인 없음"으로 표기했던 건이 **11/12(현지) 사임으로 확정**됐다. HN에서는 전날 WSJ 보도(1,211점)에 이어 이틀 연속 최상위권을 지켰고, 오늘은 AP 기사가 1위(2,683점)다.
 
 | 항목 | 내용 |
 | --- | --- |
@@ -83,7 +83,7 @@
 
 ### Kotlin 2.5 — 정식은 **2026년 12월** 예정
 - 2.5.0-RC(어제 브리핑)는 EAP 채널. 공식 릴리스 프로세스 문서 기준 **2.5.0 = 2026년 12월, 2.5.20 = 2027년 3월**.
-- 현행 안정 최신은 **2.4.21**(10-08). **2.4 라인부터 JVM 표준 라이브러리 보안 지원 창이 18개월**로 명문화됐다 → 2.3.x를 계속 쓰는 레포(poc-pickle/arch-tech는 2.3.21)는 보안 패치 창이 없다는 뜻이므로, 2.5.0 정식에 맞춰 2.4.x 이상으로 올리는 계획을 세워두는 게 맞다. <https://kotlinlang.org/docs/releases.html>
+- 현행 안정 최신은 **2.4.21**(10-08). **2.4.0부터 JVM 표준 라이브러리 보안 지원 창이 18개월**로 명문화됐다. 지원 창 표에는 2.4 라인만 등재돼 있어 **2.3.x는 보안 패치 창 밖으로 보인다** → poc-pickle·arch-tech(둘 다 2.3.21)는 2.5.0 정식(12월)에 맞춰 2.4.x 이상으로 올리는 계획을 세워두는 게 맞다. <https://kotlinlang.org/docs/releases.html>
 
 ### 인프라
 - **Qdrant**: 최신은 여전히 **1.20.0**(10-22). 24시간 내 신규 릴리스 없음. 1.20의 BM25 페이로드 인덱스·`nested`·TurboQuant 내용은 어제 브리핑 그대로 유효.
@@ -189,5 +189,5 @@
 
 - **poc-pickle 야간 7건(15:07~23:14Z)**: 임베딩 `text-embedding-004` → `gemini-embedding-001`(768차원) · PDF 이미지 URL `/pages/{page}/image` 및 블록·조항 BBox 오버레이 · 상담형 페르소나·3턴 히스토리 · 프롬프트/페르소나 스토어 + 실시간 테스트 드로어 · Gemini 네이티브 `generateContent` 연결 · `gemini-2.5-flash` 1차 교체 → **`gemini-3.8-flash` 계열로 최종 교체**(애플리케이션 프로퍼티 + NAS compose 동시 수정, 단위 테스트 동반). 현재 설정값 `pickle.rag.model=gemini-3.8-flash`, `pickle.embed.model=gemini-embedding-001`.
 - **poc-py**: 11-12 08:16~08:17Z 커밋 3건은 **`heesu.son <heesu.son@navercorp.com>` 계정이 PR 없이 main에 직접 푸시**(게이트웨이 임베더 MRL 절단, LlamaParse `custom_prompt`, 섹션 경로·조항 참조 처리). 해당 변경은 11-12 17:35 KST 요청으로 이미 전수 검토한 건이며, 이후 추가 커밋은 없음. → **PR 없는 직접 푸시 경로가 열려 있다는 점은 계속 유의**(브랜치 보호 미설정 추정).
-- **arch-tech**: 최초 커밋 1건(11-12 22:57Z, 한국어), `com.arch.tech` 그룹 ID, Spring Boot 4.1.2 · Kotlin 2.3.21 · Java 21/25 타깃 · ArchUnit 1.4.1. **`.github/workflows` 없음 = CI 미실행**, 모듈별 독립 빌드 요구는 아직 워크플로에 반영 전.
+- **arch-tech**: 최초 커밋 1건(11-12 22:57Z, 한국어), `com.arch.tech` 그룹 ID, Spring Boot 4.1.2 · Kotlin 2.3.21 · JDK 25 타깃(`gradle/libs.versions.toml`의 `jdk = "25"`) · ArchUnit 1.4.1. **`.github/workflows` 없음 = CI 미실행**, 모듈별 독립 빌드 요구는 아직 워크플로에 반영 전.
 - **GitHub Actions/Pages/Webhooks**: 현재 전 서비스 정상. 11/12 장애는 Webhooks(약 1% 트래픽)·이메일 발송에 한정, Actions 미영향.
