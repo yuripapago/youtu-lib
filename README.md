@@ -15,6 +15,9 @@ YouTube 영상으로 배운 기술 지식을 **다시 꺼내 쓸 수 있는 마�
 | 분류 | 제목 | 영상 링크 | 런타임 | 작성일 |
 | --- | --- | --- | --- | --- |
 | AI 에이전트 | [일반 개발자를 위한 Agentic AI 엔지니어 12단계 (2시간 풀버전)](topics/agentic-ai/2026-11-11-agentic-ai-engineer-12-steps.md) | [KG3JLmcNrUI](https://youtu.be/KG3JLmcNrUI?si=VHtrPezoCBCqMzuD) | 2:09:19 | 2026-11-11 |
+| AI 에이전트 | [AI 코딩의 마지막 문제 — 로렌 탄 × 맷 포콕: 미슐랭 주방 비유로 본 검증·스킬·야간 오토파일럿](topics/agentic-ai/2026-11-16-lauren-tan-ai-coding-kitchen.md) | [KC3mH9Zv_mc](https://youtu.be/KC3mH9Zv_mc) | 7:30 | 2026-11-16 |
+| AI 에이전트 | [How Cursor Turned AI Agents Into Better Engineers — Maven 워크숍(로렌 탄) 챕터 지도와 주제별 정리](topics/agentic-ai/2026-11-16-lauren-tan-cursor-agents-better-engineers.md) | [Maven](https://maven.com/p/e23d9c/how-cursor-turned-ai-agents-into-better-engineers) | 1:00:00 | 2026-11-16 |
+| AI 에이전트 | [Lauren Tan XAi Grokbot — 신뢰 곡선, 검증 스킬, Dune 아키텍처 (커서·그록봇 워크숍)](topics/agentic-ai/2026-11-16-lauren-tan-grokbot-workshop.md) | [Cmoh-yR-usA](https://www.youtube.com/watch?v=Cmoh-yR-usA) | 59:40 | 2026-11-16 |
 
 > 새 문서를 추가하면 이 표에 한 줄을 추가합니다. (분류는 `topics/` 아래 폴더명과 맞춥니다.)
 
