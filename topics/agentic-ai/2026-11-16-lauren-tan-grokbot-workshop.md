@@ -14,7 +14,7 @@
 | 태그 | `#AI에이전트` `#TrustCurve` `#Verification` `#pstack` `#Evals` `#Dune` `#GrokBot` `#TokenROI` |
 
 > [!NOTE]
-> 이 문서는 영상의 **영어 자동 자막 전체(0:00–59:37, 약 190개 구간)** 를 바탕으로 정리했다. 자막 특유의 오인식은 문맥으로 교정했다(예: "P stack / peace stack / PAC"→pstack, "Grockbot / grabbot / rockbot"→GrokBot, "Colin / call in"→Colin, "Bunny / Benny"→Benny, "use effect"→`useEffect`, "bugbot / buggbot"→Bugbot, "main"→`main`). 발표자가 화면에 띄운 코드·대시보드 수치는 자막에 숫자로 남아 있는 것만 인용했고, 화면만으로 확인되는 값은 "화면에 보인 값"으로 표시했다.
+> 이 문서는 영상의 **영어 자동 자막 전체(0:00–59:37)** 를 바탕으로 정리했다. 자막 특유의 오인식은 문맥으로 교정했다(예: "P stack / peace stack / PAC"→pstack, "Grockbot / grabbot / rockbot"→GrokBot, "Colin / call in"→Colin, "Bunny / Benny"→Benny, "use effect"→`useEffect`, "bugbot / buggbot"→Bugbot, "main"→`main`). 발표자가 화면에 띄운 코드·대시보드 수치는 자막에 숫자로 남아 있는 것만 인용했고, 화면만으로 확인되는 값은 "화면에 보인 값"으로 표시했다.
 > 이 워크숍은 [Maven 워크숍](2026-11-16-lauren-tan-cursor-agents-better-engineers.md)(2026-08-12)과 **같은 주제를 다른 청중에게 다시 푼 자리**다. 두 자료를 함께 보면 "무엇을 했는가"와 "왜 그렇게 했는가"가 짝을 이룬다.
 
 ---
